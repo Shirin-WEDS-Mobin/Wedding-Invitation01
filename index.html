@@ -287,6 +287,8 @@ html.low-end .scratch:not(.revealed)::after{animation:none;background-position:0
 .ornament{width:clamp(46px,12vw,72px);height:auto;color:var(--ink);transform-origin:50% 0;animation:dangle 5s ease-in-out infinite alternate}
 @keyframes dangle{from{transform:rotate(-4deg)}to{transform:rotate(4deg)}}
 .families{margin:28px 0 0;text-align:center;font-style:italic;font-weight:600;font-size:clamp(19px,4.8vw,22px)}
+.credit{margin:6px 0 0;text-align:center;font-style:italic;font-weight:500;font-size:clamp(19px,5vw,23px);color:var(--ink)}
+.credit strong{color:var(--rose);font-weight:600}
 
 /* ---------- Footer ---------- */
 .foot{position:relative;text-align:center;padding:clamp(50px,9vw,90px) 0 clamp(90px,16vw,150px);overflow:hidden}
@@ -294,8 +296,6 @@ html.low-end .scratch:not(.revealed)::after{animation:none;background-position:0
 .thanks{margin:0 auto 26px;max-width:32ch;font-style:italic;font-size:clamp(20px,5vw,24px)}
 .foot .actions{position:relative;z-index:2}
 .fine{margin:26px 0 0;font-family:"Great Vibes",cursive;font-size:32px;color:var(--rose);position:relative;z-index:2}
-.credit{margin:16px 0 0;position:relative;z-index:2;font-size:14px;letter-spacing:.03em;color:var(--ink-soft);font-style:italic}
-.credit strong{color:var(--gold);font-weight:700;font-style:normal}
 
 /* ---------- Petals ---------- */
 .rain{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:50}
@@ -560,6 +560,7 @@ html.low-end .scratch:not(.revealed)::after{animation:none;background-position:0
       </div>
 
       <p class="families reveal" style="--d:.25s">Sayyed, Shaikh, Sande, Mulla, Ambi</p>
+      <p class="credit reveal" style="--d:.3s">Well crafted by <strong>Amaan Sayyed</strong></p>
     </div>
   </section>
 </main>
@@ -581,7 +582,6 @@ html.low-end .scratch:not(.revealed)::after{animation:none;background-position:0
       <a class="btn ghost" id="shareBtn" target="_blank" rel="noopener" href="#">Share on WhatsApp</a>
     </div>
     <p class="fine reveal" style="--d:.3s">Shirin &amp; Mubin</p>
-    <p class="credit reveal" style="--d:.4s">Invitation crafted with care by <strong>Amaan Sayyed</strong></p>
   </div>
 </footer>
 
